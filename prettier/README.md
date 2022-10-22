@@ -4,8 +4,8 @@ Add a line in `packages.json` file:
 
 ```json
 {
-	"prettier": "./node_modules/@yakirgot/linters/prettier/prettier-defaults.js"
+	"prettier": "./node_modules/@yakirgot/linters/prettier/prettier-defaults.json"
 }
 ```
 
-We add it to `package.json` because having no actual configurations might confuse code editors that take code style settings from the prettier configuration file
+I add it to `package.json` because having no actual configurations might confuse code editors that take code style settings from the prettier configuration file

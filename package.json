@@ -9,7 +9,7 @@
 	},
 	"type": "module",
 	"author": "Yakir Gottesman",
-	"prettier": "./prettier/prettier-defaults.js",
+	"prettier": "./prettier/prettier-defaults.json",
 	"devDependencies": {
 		"@commitlint/cli": "~17.1.0",
 		"@commitlint/config-conventional": "~17.1.0",

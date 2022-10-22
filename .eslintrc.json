@@ -3,5 +3,5 @@
 		"es6": true,
 		"node": true
 	},
-	"extends": ["./eslint/eslint-defaults.js"]
+	"extends": ["./eslint/eslint-defaults.json"]
 }
