@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext"
+	},
+	"include": ["eslint/**/*", "prettier/**/*", "stylelint/**/*", "README.md"]
+}
