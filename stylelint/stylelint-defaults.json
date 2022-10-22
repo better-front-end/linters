@@ -51,7 +51,7 @@
 		],
 		"at-rule-disallowed-list": ["import"],
 		"selector-class-pattern": [
-			"/^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$/u",
+			"^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
 			{ "resolveNestedSelectors": true }
 		],
 		"declaration-block-no-redundant-longhand-properties": true,
