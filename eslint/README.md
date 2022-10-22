@@ -16,7 +16,7 @@ Please install
 
 ```bash
  # look at the peer dependencies for the right version
-yarn add --dev eslint-plugin-jest@x.x.x
+npm install --save-dev eslint-plugin-jest@x.x.x
 ```
 
 You should add this setting to the project:
