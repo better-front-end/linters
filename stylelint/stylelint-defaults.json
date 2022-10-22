@@ -55,7 +55,6 @@
 			{ "resolveNestedSelectors": true }
 		],
 		"declaration-block-no-redundant-longhand-properties": true,
-		"color-function-notation": "legacy",
 		"no-descending-specificity": true,
 		"max-empty-lines": 1,
 		"rule-empty-line-before": [
@@ -65,7 +64,6 @@
 				"ignore": ["after-comment"]
 			}
 		],
-		"alpha-value-notation": "number",
 		"import-notation": "string",
 		"selector-not-notation": "complex",
 		"font-family-name-quotes": "always-where-required",
