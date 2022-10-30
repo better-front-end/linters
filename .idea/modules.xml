@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/yg-linters.iml" filepath="$PROJECT_DIR$/.idea/yg-linters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/linters.iml" filepath="$PROJECT_DIR$/.idea/linters.iml" />
     </modules>
   </component>
 </project>
