@@ -1,5 +1,6 @@
 .idea
 .vscode
+.github
 .husky
 .browserslistrc
 .commitlintrc.json
