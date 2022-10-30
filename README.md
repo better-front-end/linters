@@ -19,7 +19,7 @@ Here I have the basic coding standard for JavaScript, and SCSS, which should be 
 ## installation
 
 ```sh
-yarn add @yakirgot/linters --dev --exact
+npm install @yakirgot/linters --save-dev --save-exact
 ```
 
 Please visit the relevant directory to read about the specific implementation
