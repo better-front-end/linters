@@ -49,6 +49,6 @@
 		"stylelint-use-logical-spec": "~4.1.0"
 	},
 	"engines": {
-		"node": "16"
+		"node": ">=16"
 	}
 }
