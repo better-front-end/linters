@@ -75,6 +75,8 @@
 		"declaration-block-no-duplicate-properties": [
 			true,
 			{ "ignore": ["consecutive-duplicates-with-same-prefixless-values"] }
-		]
+		],
+		"media-feature-range-notation": "prefix",
+		"keyframe-selector-notation": "percentage"
 	}
 }

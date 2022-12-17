@@ -1,4 +1,7 @@
 {
+	"env": {
+		"es6": true
+	},
 	"parserOptions": {
 		"ecmaVersion": 2022,
 		"ecmaFeatures": {
@@ -170,6 +173,7 @@
 			"error",
 			{ "ignoreCase": true, "ignoreDeclarationSort": true }
 		],
-		"symbol-description": "error"
+		"symbol-description": "error",
+		"no-new-native-nonconstructor": "error"
 	}
 }
