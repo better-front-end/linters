@@ -1,6 +1,6 @@
 {
 	"name": "@yakirgot/linters",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"license": "MIT",
 	"description": "Please visit the relevant directory to learn about the specific implementation",
 	"scripts": {
