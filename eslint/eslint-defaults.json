@@ -90,20 +90,6 @@
 		"camelcase": "error",
 		"consistent-this": ["error", "that"],
 		"func-name-matching": "error",
-		"id-denylist": [
-			"error",
-			"el",
-			"cb",
-			"callback",
-			"str",
-			"num",
-			"arr",
-			"obj",
-			"arg",
-			"param",
-			"params",
-			"err"
-		],
 		"id-length": ["error", { "min": 2 }],
 		"lines-between-class-members": [
 			"error",
