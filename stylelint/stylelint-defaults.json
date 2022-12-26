@@ -36,7 +36,8 @@
 				"name": "media",
 				"parameter": "(hover: hover)"
 			},
-			"rules"
+			"rules",
+			"at-rules"
 		],
 		"order/properties-alphabetical-order": true,
 		"prettier/prettier": true,
