@@ -11,7 +11,6 @@
 		"string-quotes": "double",
 		"liberty/use-logical-spec": [true, { "except": ["float"] }],
 		"order/order": [
-			"at-rules",
 			{
 				"type": "at-rule",
 				"name": "forward"
@@ -24,20 +23,10 @@
 				"type": "at-rule",
 				"name": "import"
 			},
-			{
-				"type": "at-rule",
-				"name": "include"
-			},
 			"custom-properties",
 			"dollar-variables",
 			"declarations",
-			{
-				"type": "at-rule",
-				"name": "media",
-				"parameter": "(hover: hover)"
-			},
-			"rules",
-			"at-rules"
+			"rules"
 		],
 		"order/properties-alphabetical-order": true,
 		"prettier/prettier": true,
