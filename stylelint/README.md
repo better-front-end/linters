@@ -5,7 +5,7 @@ Create `.stylelintrc.json` file, or add to an existing file:
 ```json
 {
 	"extends": [
-		"./node_modules/@yakirgot/linters/stylelint/stylelint-defaults.json"
+		"./node_modules/@better-front-end/linters/stylelint/stylelint-defaults.json"
 	]
 }
 ```

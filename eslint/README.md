@@ -4,7 +4,9 @@ Create `.eslintrc.json` file, or add to an existing file:
 
 ```json
 {
-	"extends": ["./node_modules/@yakirgot/linters/eslint/eslint-defaults.json"]
+	"extends": [
+		"./node_modules/@better-front-end/linters/eslint/eslint-defaults.json"
+	]
 }
 ```
 
@@ -24,8 +26,8 @@ You should add this setting to the project:
 ```json
 {
 	"extends": [
-		"./node_modules/@yakirgot/linters/eslint/eslint-jest.json",
-		"./node_modules/@yakirgot/linters/eslint/eslint-defaults.json"
+		"./node_modules/@better-front-end/linters/eslint/eslint-jest.json",
+		"./node_modules/@better-front-end/linters/eslint/eslint-defaults.json"
 	]
 }
 ```

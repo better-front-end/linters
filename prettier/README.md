@@ -4,7 +4,7 @@ Add a line in `packages.json` file:
 
 ```json
 {
-	"prettier": "./node_modules/@yakirgot/linters/prettier/prettier-defaults.json"
+	"prettier": "./node_modules/@better-front-end/linters/prettier/prettier-defaults.json"
 }
 ```
 
