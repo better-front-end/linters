@@ -15,7 +15,7 @@
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		"indent": ["error", "tab"],
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
 		"no-await-in-loop": "error",
 		"no-console": "error",
 		"no-extra-parens": ["error", "all", { "nestedBinaryExpressions": false }],
