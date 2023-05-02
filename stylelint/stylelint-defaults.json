@@ -8,7 +8,6 @@
 	"plugins": ["stylelint-order", "stylelint-use-logical-spec"],
 	"customSyntax": "postcss-scss",
 	"rules": {
-		"string-quotes": "double",
 		"liberty/use-logical-spec": [true, { "except": ["float"] }],
 		"order/order": [
 			{
@@ -49,7 +48,6 @@
 		],
 		"declaration-block-no-redundant-longhand-properties": true,
 		"no-descending-specificity": true,
-		"max-empty-lines": 1,
 		"rule-empty-line-before": [
 			"always-multi-line",
 			{
