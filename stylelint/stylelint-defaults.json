@@ -63,6 +63,7 @@
 			{ "ignore": ["consecutive-duplicates-with-same-prefixless-values"] }
 		],
 		"media-feature-range-notation": "prefix",
-		"keyframe-selector-notation": "percentage"
+		"keyframe-selector-notation": "context",
+		"selector-anb-no-unmatchable": true
 	}
 }
