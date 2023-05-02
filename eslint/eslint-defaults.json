@@ -31,7 +31,7 @@
 		],
 		"array-callback-return": ["error", { "checkForEach": true }],
 		"consistent-return": "error",
-		"curly": "error",
+		"curly": ["error", "multi", "consistent"],
 		"default-case-last": "error",
 		"default-param-last": ["error"],
 		"dot-notation": "error",
