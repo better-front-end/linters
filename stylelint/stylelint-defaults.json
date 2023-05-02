@@ -29,7 +29,6 @@
 			"rules"
 		],
 		"order/properties-alphabetical-order": true,
-		"prettier/prettier": true,
 		"at-rule-empty-line-before": [
 			"always",
 			{
