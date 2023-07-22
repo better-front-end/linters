@@ -81,7 +81,7 @@
 		"require-await": "error",
 		"require-unicode-regexp": "error",
 		"wrap-iife": ["error", "inside"],
-		"yoda": ["error", "never"],
+		"yoda": "error",
 		"no-label-var": "error",
 		"no-shadow": "error",
 		"no-undef-init": "error",
