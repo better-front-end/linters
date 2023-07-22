@@ -64,6 +64,12 @@
 		],
 		"media-feature-range-notation": "context",
 		"keyframe-selector-notation": "percentage",
-		"selector-anb-no-unmatchable": true
+		"selector-anb-no-unmatchable": true,
+		"selector-nested-pattern": [
+			"^&:.*$",
+			{
+				"splitList": true
+			}
+		]
 	}
 }
