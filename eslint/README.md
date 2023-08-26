@@ -12,15 +12,6 @@ Create `.eslintrc.json` file, or add to an existing file:
 
 If you extend more plugins, this line should probably come at the end of the array, but always use judgment
 
-### Jest
-
-Please install
-
-```bash
- # look at the peer dependencies for the right version
-npm install --save-dev eslint-plugin-jest@x.x.x
-```
-
 You should add this setting to the project:
 
 ```json
@@ -31,8 +22,6 @@ You should add this setting to the project:
 	]
 }
 ```
-
-[eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 
 ### Visual Studio Code
 
