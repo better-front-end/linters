@@ -1,5 +1,4 @@
 {
-	"indentation": "tabs",
 	"extends": [
 		"stylelint-config-standard-scss",
 		"stylelint-config-html/html",
