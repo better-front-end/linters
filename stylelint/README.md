@@ -4,9 +4,7 @@ Create `.stylelintrc.json` file, or add to an existing file:
 
 ```json
 {
-	"extends": [
-		"./node_modules/@better-front-end/linters/stylelint/stylelint-defaults.json"
-	]
+	"extends": ["@better-front-end/linters/stylelint/stylelint-defaults.json"]
 }
 ```
 
