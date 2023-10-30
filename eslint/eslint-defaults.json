@@ -45,7 +45,6 @@
 				"no-extend-native": "error",
 				"no-extra-bind": "error",
 				"no-extra-label": "error",
-				"no-floating-decimal": "error",
 				"no-implicit-globals": "error",
 				"no-implied-eval": "error",
 				"no-iterator": "error",
@@ -80,7 +79,6 @@
 				"prefer-object-has-own": "error",
 				"require-await": "error",
 				"require-unicode-regexp": "error",
-				"wrap-iife": ["error", "inside"],
 				"yoda": "error",
 				"no-label-var": "error",
 				"no-shadow": "error",
@@ -89,21 +87,14 @@
 				"consistent-this": ["error", "that"],
 				"func-name-matching": "error",
 				"id-length": ["error", { "min": 2 }],
-				"lines-between-class-members": [
-					"error",
-					"always",
-					{ "exceptAfterSingleLine": true }
-				],
 				"max-depth": ["error", 4],
 				"max-lines": ["error", { "max": 500, "skipBlankLines": true }],
 				"max-nested-callbacks": ["error", 3],
 				"max-params": ["error", 3],
-				"new-parens": "error",
 				"no-array-constructor": "error",
 				"no-bitwise": "error",
 				"no-lonely-if": "error",
 				"no-multi-assign": "error",
-				"no-multiple-empty-lines": ["error", { "max": 2 }],
 				"no-negated-condition": "error",
 				"no-nested-ternary": "error",
 				"no-new-object": "error",
@@ -111,30 +102,8 @@
 				"no-unneeded-ternary": "error",
 				"one-var": ["error", "never"],
 				"operator-assignment": "error",
-				"padding-line-between-statements": [
-					"error",
-					{ "blankLine": "always", "prev": "*", "next": "return" },
-					{
-						"blankLine": "always",
-						"prev": ["const", "let", "var"],
-						"next": "*"
-					},
-					{ "blankLine": "always", "prev": "*", "next": "block-like" },
-					{ "blankLine": "always", "prev": "block-like", "next": "*" },
-					{
-						"blankLine": "any",
-						"prev": ["const", "let", "var"],
-						"next": ["const", "let", "var"]
-					},
-					{ "blankLine": "always", "prev": "directive", "next": "*" },
-					{ "blankLine": "any", "prev": "directive", "next": "directive" },
-					{ "blankLine": "never", "prev": ["case", "default"], "next": "*" },
-					{ "blankLine": "always", "prev": "import", "next": "*" },
-					{ "blankLine": "any", "prev": "import", "next": "import" }
-				],
 				"prefer-exponentiation-operator": "error",
 				"prefer-object-spread": "error",
-				"quotes": ["error", "double"],
 				"spaced-comment": [
 					"error",
 					"always",
@@ -142,10 +111,6 @@
 						"block": { "balanced": true },
 						"markers": ["/"]
 					}
-				],
-				"generator-star-spacing": [
-					"error",
-					{ "before": false, "after": true, "method": "before" }
 				],
 				"no-duplicate-imports": "error",
 				"no-useless-computed-key": "error",
