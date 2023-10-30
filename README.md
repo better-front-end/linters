@@ -33,15 +33,3 @@ NOTE: Those settings assume usage in evergreen browsers, so several rules might 
 [Prettier readme](./prettier/README.md)
 
 [Stylelint readme](./stylelint/README.md)
-
-## Notable decisions
-
-### Double quotes vs. single quotes
-
-While single quotes are more common in the JavaScript community, there are a few strong arguments towards double quotes.
-
-- We already use double quotes in many other languages: HTML, JSON, various backend languages
-- You can write contractions without needing to escape: `'It\'s mandatory to escape :-/'` vs. `"How y'all doing?"`
-- In JavaScript, we have too many options for writing string literals. Now we are only left with two: double quotes and template literals
-- You can (and probably should) still write single quotes, and just let prettier/eslint take care the formatting for you on save
-- Advocated by Douglas Crockford
