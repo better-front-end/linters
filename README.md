@@ -30,6 +30,14 @@ NOTE: Those settings assume usage in evergreen browsers, so several rules might 
 
 [ESLint readme](./eslint/README.md)
 
-[Prettier readme](./prettier/README.md)
-
 [Stylelint readme](./stylelint/README.md)
+
+## Where Is The Prettier Config File?
+
+We don't need it! It's defaults are good enough and many options were added [due to historical reasons](https://prettier.io/docs/en/option-philosophy). Just adopt it :-)
+
+### Prettier and vscode
+
+1. Make sure you have the prettier plugin installed.
+2. In the settings make sure format on save is on.
+3. Set Prettier as the default formatter.
