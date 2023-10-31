@@ -1,6 +1,6 @@
 {
 	"name": "@better-front-end/linters",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"license": "MIT",
 	"description": "Please visit the relevant directory to learn about the specific implementation",
 	"scripts": {
@@ -10,7 +10,6 @@
 	},
 	"type": "module",
 	"author": "Yakir Gottesman",
-	"prettier": "./prettier/prettier-defaults.json",
 	"devDependencies": {
 		"@commitlint/cli": "~18.2.0",
 		"@commitlint/config-conventional": "~18.1.0",
