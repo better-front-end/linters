@@ -25,3 +25,24 @@ If you extend more plugins, this line should probably come at the end of the arr
 	}
 }
 ```
+
+## Typescript Support
+
+```sh
+npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+```json
+{
+	"overrides": [
+		{
+			"files": ["*.ts"],
+			"extends": ["plugin:@typescript-eslint/recommended"],
+			"parser": "@typescript-eslint/parser",
+			"plugins": ["@typescript-eslint"]
+		}
+	]
+}
+```
+
+For further reading [visit typescript-eslint](https://typescript-eslint.io/)
