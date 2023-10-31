@@ -3,5 +3,5 @@
 		"module": "esnext",
 		"target": "esnext"
 	},
-	"include": ["eslint/**/*", "prettier/**/*", "stylelint/**/*", "README.md"]
+	"include": ["eslint/**/*", "stylelint/**/*", "README.md"]
 }
