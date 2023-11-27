@@ -45,8 +45,6 @@
 			"^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
 			{ "resolveNestedSelectors": true }
 		],
-		"declaration-block-no-redundant-longhand-properties": true,
-		"no-descending-specificity": true,
 		"rule-empty-line-before": [
 			"always-multi-line",
 			{
@@ -54,16 +52,6 @@
 				"ignore": ["after-comment"]
 			}
 		],
-		"import-notation": "string",
-		"selector-not-notation": "complex",
-		"font-family-name-quotes": "always-where-required",
-		"declaration-block-no-duplicate-properties": [
-			true,
-			{ "ignore": ["consecutive-duplicates-with-same-prefixless-values"] }
-		],
-		"media-feature-range-notation": "context",
-		"keyframe-selector-notation": "percentage",
-		"selector-anb-no-unmatchable": true,
 		"selector-nested-pattern": [
 			"^&:.*$",
 			{
