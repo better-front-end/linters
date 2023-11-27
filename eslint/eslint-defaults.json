@@ -55,16 +55,8 @@
 				"no-new-func": "error",
 				"no-new-wrappers": "error",
 				"no-octal-escape": "error",
-				"no-restricted-globals": [
-					"error",
-					{
-						"name": "isNaN",
-						"message": "Use Number.isNaN instead. Remember to check for typeof number if needed"
-					}
-				],
 				"no-proto": "error",
 				"no-return-assign": ["error", "always"],
-				"no-return-await": "error",
 				"no-script-url": "error",
 				"no-self-compare": "error",
 				"no-sequences": "error",
@@ -86,32 +78,24 @@
 				"camelcase": "error",
 				"consistent-this": ["error", "that"],
 				"func-name-matching": "error",
-				"id-length": ["error", { "min": 2 }],
-				"max-depth": ["error", 4],
+				"id-length": "error",
+				"max-depth": "error",
 				"max-lines": ["error", { "max": 500, "skipBlankLines": true }],
 				"max-nested-callbacks": ["error", 3],
-				"max-params": ["error", 3],
+				"max-params": "error",
 				"no-array-constructor": "error",
 				"no-bitwise": "error",
 				"no-lonely-if": "error",
 				"no-multi-assign": "error",
 				"no-negated-condition": "error",
 				"no-nested-ternary": "error",
-				"no-new-object": "error",
+				"no-object-constructor": "error",
 				"no-underscore-dangle": "error",
 				"no-unneeded-ternary": "error",
 				"one-var": ["error", "never"],
 				"operator-assignment": "error",
 				"prefer-exponentiation-operator": "error",
 				"prefer-object-spread": "error",
-				"spaced-comment": [
-					"error",
-					"always",
-					{
-						"block": { "balanced": true },
-						"markers": ["/"]
-					}
-				],
 				"no-duplicate-imports": "error",
 				"no-useless-computed-key": "error",
 				"no-useless-constructor": "error",
