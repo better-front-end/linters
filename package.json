@@ -1,6 +1,6 @@
 {
 	"name": "@better-front-end/linters",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"license": "MIT",
 	"description": "Please visit the relevant directory to learn about the specific implementation",
 	"scripts": {
